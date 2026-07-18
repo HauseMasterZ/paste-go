@@ -8,7 +8,7 @@
   "commands": {
     "run": {
       "suggested_key": {"default": "Alt+Z"},
-      "description": "Search clipboard in new tab"
+      "description": "Paste and go"
     }
   }
 }
