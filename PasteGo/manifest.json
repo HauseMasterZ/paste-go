@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Paste and Go",
+  "version": "1",
+  "permissions": ["scripting", "clipboardRead"],
+  "host_permissions": ["<all_urls>"],
+  "background": {"service_worker": "bg.js"},
+  "commands": {
+    "run": {
+      "suggested_key": {"default": "Alt+Z"},
+      "description": "Search clipboard in new tab"
+    }
+  }
+}
